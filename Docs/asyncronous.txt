@@ -1,0 +1,13 @@
+Asyncronous architecture also called non bloking architecture.
+
+Node application is works based on Asyncronous architecture which means.
+
+    For example:
+        Imagine you go to a resturant the waiter comes to a table takes the order and gives it to the kitchen
+        Then they move onto serve another table while the chef is prepearing your meal 
+        So the same person can serve many different table they dont have to wait for the chef to cook one meal before they serve another table.
+
+    Here:
+        The waiter is like a thread allocated to handle a request
+        So a single thread is used to handle multiple requests in contrast to non-blocking or Asyncronous,
+        We have Bloking or Syncronous architecture.
