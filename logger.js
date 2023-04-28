@@ -1,19 +1,8 @@
-// (function(exports, require, module, __filename, __dirname){
+var url = 'http://mylogger.io/log'
 
-    console.log(__filename)
-    console.log(__dirname)
+function log(message) {
+    //Send an HTTP request
+    console.log(message)
+}
 
-    var url = 'http://mylogger.io/log'
-
-    function log(message) {
-        //Send an HTTP request
-        console.log(message)
-    }
-
-    module.exports = log
-// })
-
-// module.exports.log = log
-// module.exports.endPoint = url
-
-// console.log(module)
+module.exports = log
